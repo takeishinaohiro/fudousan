@@ -1,0 +1,412 @@
+.fudou-heater{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  box-shadow: 0rem 0rem 0.4rem rgba(51, 51, 51, 0.418);
+  overflow: hidden;
+  z-index: 100;
+
+  
+  &__left{
+    background-image: url("/require.png");
+    height: 3rem;
+    width: 6rem;
+    margin: 0.5rem 0 0 10%;
+    background-size: cover;
+  }
+  &__right{
+    display: flex;
+    margin: 0.8rem 0 0 20rem;
+    font-size: 1.8rem;
+    color: rgb(22, 22, 22);
+    font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
+
+
+    .top{
+      margin: 0 2rem;
+      cursor: pointer;
+    }
+    .customer{
+      margin: 0 2rem;
+      cursor: pointer;
+
+    }
+    .otoiawase{
+      margin: 0 2rem;
+      cursor: pointer;
+
+    }
+    .consul{
+      margin: 0 2rem;
+      cursor: pointer;
+    }
+  }
+}
+.between{
+  height: 6rem;
+}
+
+
+.fudou-slide{
+  // background-color: rgb(110, 52, 52);
+  margin: 1rem auto;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  
+  
+
+
+  .slide-main{
+    width: 60%;
+    margin: 0 auto;
+    height: 30rem;
+    background-attachment: fixed;
+
+
+    .slide-top{
+      width: 100%;
+      height: 30rem;
+    }
+    .slide-2{
+      width: 100%;
+      height: 30rem;
+    }
+  }
+}
+
+.customer-main{
+  width: 100%;
+  height: 49rem;
+  font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
+
+
+  &__top{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    border-left: 1.4rem solid rgba(0, 0, 0, 0.425);
+    padding: 0 0 0 1.5rem;
+  }
+  &__main{
+    margin: 2rem auto 0;
+    width: 80%;
+    height: 14.375rem;
+    display: flex;
+    justify-content: space-between;
+
+    .left{
+      height: 14.375rem;
+      width: 20%;
+
+      &:hover{
+        opacity: 0.4;
+      }
+      
+
+
+      .top{
+        border-right: 120px solid transparent;
+        border-bottom: 86.6025px solid #b2ce54;
+        border-left: 120px solid transparent; 
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .bottom{
+        height: 7rem;
+        width: 70%;
+        background-color: #b2ce54;
+        margin: 0 17.5%;
+        font-size: 1.4rem;
+        text-align: center;
+        line-height: 5rem;
+        text-shadow: #333 0.01rem 0.01rem;
+        cursor: pointer;
+
+      }
+    }
+
+    .center{
+      height: 14.375rem;
+      width: 20%;
+
+      &:hover{
+        opacity: 0.4;
+      }
+
+      .top{
+        border-right: 120px solid transparent;
+        border-bottom: 86.6025px solid #b2ce54;
+        border-left: 120px solid transparent; 
+        border-radius: 20px;
+        cursor: pointer;
+
+      }
+      .bottom{
+        height: 7rem;
+        width: 70%;
+        background-color: #b2ce54;
+        margin: 0 17.5%;
+        font-size: 1.4rem;
+        text-align: center;
+        line-height: 5rem;
+        text-shadow: #333 0.01rem 0.01rem;
+        cursor: pointer;
+
+      }
+    }
+    .right{
+      height: 14.375rem;
+      width: 20%;
+
+      &:hover{
+        opacity: 0.4;
+      }
+
+      .top{
+        border-right: 120px solid transparent;
+        border-bottom: 86.6025px solid #b2ce54;
+        border-left: 120px solid transparent; 
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .bottom{
+        height: 7rem;
+        width: 70%;
+        background-color: #b2ce54;
+        margin: 0 17.5%;
+        font-size: 1.4rem;
+        text-align: center;
+        list-style: none;
+        text-shadow: #333 0.01rem 0.01rem;
+        cursor: pointer;
+      }
+    }
+  }
+  &__content1{
+    width: 100%;
+    height: 40rem;
+    // background-color: rgb(255, 154, 154);
+    transition: .10s;
+    animation: Aa 2s forwards;
+    
+
+
+    &--fukidasi{
+      margin: 0 13%;
+      border-right: 7px solid transparent;
+      border-bottom: 5rem solid rgb(0, 0, 0);
+      border-left: 70px solid transparent;
+      width: 0;
+      height: 0;
+
+
+    }
+    &--into{
+      width: 75%;
+      margin: 0 auto;
+      height: 26rem;
+      // background-color: rgba(0, 0, 0, 0.849);
+      border-radius: 30px;
+      padding: 40px;
+      box-shadow: 0rem 0rem 0.4rem rgba(51, 51, 51, 0.418);
+      background-size: cover;
+
+
+      .content1-top{
+        width: 80%;
+        height: 25rem;
+        margin: 0.6rem auto;
+        background-image: url("/mainn.jpg");
+
+      }
+    }
+  }
+  &__content2{
+    width: 100%;
+    height: 40rem;
+    // background-color: rgb(255, 154, 154);
+    transition: .10s;
+    animation: Aa 2s forwards;
+
+    &--fukidasi{
+      margin: 0 40%;
+      border-right: 7px solid transparent;
+      border-bottom: 5rem solid rgb(0, 0, 0);
+      border-left: 70px solid transparent;
+      width: 0;
+      height: 0;
+
+
+    }
+    &--into{
+      width: 75%;
+      margin: 0 auto;
+      height: 26rem;
+      border-radius: 30px;
+      padding: 40px;
+      box-shadow: 0rem 0rem 0.4rem rgba(51, 51, 51, 0.418);
+      background-size: cover;
+
+
+      .content1-top{
+        width: 80%;
+        height: 25rem;
+        margin: 0.6rem auto;
+        background-image: url("/借りる.jpg");
+        background-size: cover;
+      }
+    }
+  }
+  &__content3{
+    width: 100%;
+    height: 40rem;
+    // background-color: rgb(255, 154, 154);
+    transition: .10s;
+    animation: Aa 2s forwards;
+
+    &--fukidasi{
+      margin: 0 73%;
+      border-right: 7px solid transparent;
+      border-bottom: 5rem solid rgb(0, 0, 0);
+      border-left: 70px solid transparent;
+      width: 0;
+      height: 0;
+
+
+    }
+    &--into{
+      width: 75%;
+      margin: 0 auto;
+      height: 26rem;
+      border-radius: 30px;
+      padding: 40px;
+      box-shadow: 0rem 0rem 0.4rem rgba(51, 51, 51, 0.418);
+      background-size: cover;
+
+
+      .content1-top{
+        width: 80%;
+        height: 24rem;
+        margin: 0.6rem auto;
+        background-image: url("/orner.jpg");
+      }
+    }
+  }
+}
+.none{
+  display: none;
+}
+.none{
+  display: none;
+}
+@keyframes Aa{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.otoiawase-main{
+  width: 100%;
+  height: 20rem;
+  font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
+
+
+  &__top{
+    width: 70%;
+    margin: 4rem auto 1rem;
+    font-size: 2.3rem;
+    border-left: 1.4rem solid rgba(0, 0, 0, 0.425);
+    padding: 0 0 0 1.5rem;
+  }
+  &__main{
+    width: 44%;
+    margin: 0 auto;
+    display: flex;
+    height: 7rem;
+    justify-content: space-between;
+
+    &--left{
+      list-style: none;
+
+      .fa-facebook-square{
+        font-size: 5rem;
+        color:#385185;
+        line-height: 2rem;
+      }
+
+      .fa-comment{
+        font-size: 9rem;
+        color: rgba(201, 198, 198, 0.555);
+        margin: 0 0 0 2rem;
+        position: relative;
+
+        .facebook{
+          font-size: 1rem;
+          position: absolute;
+          top: 50px;
+          left: 10px;
+          color: #333;
+        }
+        .xxxx{
+          height: 1rem;
+          font-size: 1rem;
+          color: #fff;
+        }
+      }
+    }
+    &--right{
+      display: block;
+      list-style: none;
+
+      .fa-twitter{
+        font-size: 5rem;
+        color:#5d9dc9;
+        line-height: 2rem;
+      }
+      .fa-comment{
+        font-size: 9rem;
+        color: rgba(201, 198, 198, 0.555);
+        margin: 0 0 0 2rem;
+        position: relative;
+
+        .facebook{
+          font-size: 1rem;
+          position: absolute;
+          top: 50px;
+          left: 10px;
+          color: #333;
+        }
+        .xxxx{
+          height: 1rem;
+          font-size: 1rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.consul-main{
+  width: 100%;
+  height: 49rem;
+  font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
+
+
+  &__top{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 2.3rem;
+    border-left: 1.4rem solid rgba(0, 0, 0, 0.425);
+    padding: 0 0 0 1.5rem;
+  }
+}

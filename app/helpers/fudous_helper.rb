@@ -1,0 +1,2 @@
+module FudousHelper
+end
