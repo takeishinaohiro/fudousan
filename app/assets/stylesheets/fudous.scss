@@ -1,5 +1,5 @@
 .fudou-heater{
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.493);
   position: fixed;
   display: flex;
   width: 100%;
@@ -7,14 +7,15 @@
   box-shadow: 0rem 0rem 0.4rem rgba(51, 51, 51, 0.418);
   overflow: hidden;
   z-index: 100;
+  backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
 
-  
+
   &__left{
-    background-image: url("/require.png");
-    height: 3rem;
-    width: 6rem;
-    margin: 0.5rem 0 0 10%;
-    background-size: cover;
+    height: auto;
+    width: 12rem;
+    margin: 0.8rem 0 0 10%;
   }
   &__right{
     display: flex;
@@ -59,6 +60,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  position: relative;
   
   
 
@@ -303,9 +305,6 @@
 .none{
   display: none;
 }
-.none{
-  display: none;
-}
 @keyframes Aa{
   0%{
     opacity: 0;
@@ -368,9 +367,9 @@
       display: block;
       list-style: none;
 
-      .fa-twitter{
+      .fa-envelope{
         font-size: 5rem;
-        color:#5d9dc9;
+        color:#333;
         line-height: 2rem;
       }
       .fa-comment{
@@ -398,7 +397,7 @@
 
 .consul-main{
   width: 100%;
-  height: 49rem;
+  height: 39rem;
   font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
 
 
@@ -409,4 +408,217 @@
     border-left: 1.4rem solid rgba(0, 0, 0, 0.425);
     padding: 0 0 0 1.5rem;
   }
+  &__top-center{
+    margin: 2rem auto;
+    width: 50%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid #b2ce54;
+    line-height: 0;
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+  }
+  &__main{
+    width: 80%;
+    margin: 0 auto;
+    height: 29rem;
+    animation: Aa 2s forwards;
+
+
+    &--top{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .left{
+        height: 14.375rem;
+        width: 20%;
+  
+        &:hover{
+          opacity: 0.4;
+        }
+  
+        .top{
+          border-right: 130px solid transparent;
+          border-bottom: 86.6025px solid #b2ce54;
+          border-left: 130px solid transparent; 
+          border-radius: 20px;
+          cursor: pointer;
+  
+        }
+
+        .bottom{
+          height: 7rem;
+          width: 70%;
+          background-color: #b2ce54;
+          margin: 0 21%;
+          font-size: 1.4rem;
+          text-align: center;
+          text-shadow: #333 0.01rem 0.01rem;
+          cursor: pointer;
+          position: relative;
+          font-size: 5rem;
+          line-height: 4rem;
+
+          .xxx{
+            list-style: none;
+            position: absolute;
+            font-size: 0.9rem;
+            text-align: center;
+            margin: 0 20%;
+
+          }
+  
+        }
+      }
+    }
+    &--bottom{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .left{
+        height: 14.375rem;
+        width: 20%;
+  
+        &:hover{
+          opacity: 0.4;
+        }
+  
+        .top{
+          border-right: 130px solid transparent;
+          border-bottom: 86.6025px solid #b2ce54;
+          border-left: 130px solid transparent; 
+          border-radius: 20px;
+          cursor: pointer;
+        }
+
+        .bottom{
+          height: 7rem;
+          width: 70%;
+          background-color: #b2ce54;
+          margin: 0 21%;
+          font-size: 1.4rem;
+          text-align: center;
+          text-shadow: #333 0.01rem 0.01rem;
+          cursor: pointer;
+          position: relative;
+          font-size: 5rem;
+          line-height: 4rem;
+        }
+      }
+    }
+  }
+  .consul-main__main2{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgba(214, 214, 214, 0.411);
+    list-style: none;
+    height: 22rem;
+    animation: Aa 1s forwards;
+
+
+    &--into1{
+      width: 98%;
+      height: 19rem;
+      margin: 3rem auto 0;
+      background-color: #fff;
+      border-radius: 30px;
+      padding: 1rem 0 0 0 ;
+
+
+      .text{
+        margin: 0 2rem;
+        line-height: 3rem;
+
+        .top{
+          font-size: 1.7rem;
+          color: #333;
+          border-top: 15px solid transparent;
+          border-bottom: 15px solid transparent;
+          border-left: 20px solid #b2ce54;
+          line-height: 0;
+          font-size: 1.3rem;
+          padding-left: 0.5rem;
+          margin: 1rem 0 0 0 ;
+        }
+
+        .main{
+          width: 95%;
+          margin: 0 auto;
+          color: rgba(51, 51, 51, 0.699);
+        }
+
+
+        .next{
+          color: blue;
+          margin: 0.5rem 0 0 0;
+          cursor: pointer;
+          
+          &:hover{
+            opacity: 0.5;
+
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.footer{
+  background-color: rgba(64, 99, 216, 0.11);
+  color: #333;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
+
+  &__left{
+    margin: 0 2rem 0 0;
+
+    .logo2{
+      width: auto;
+      height: 12rem;
+      bottom: 0rem;
+      margin: 0 2%;
+      position: absolute;
+    }
+  }
+
+  &__center{
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 2rem;
+
+    &--top{
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    &--center{
+      display: flex;
+      line-height: 2.4rem;
+      list-style: none;
+      margin: 2rem;
+
+      .right{
+        margin-left: 5%;
+      }
+    }
+  }
+  .footer__right{
+    width: 70%;
+
+    iframe{
+      margin: 3rem 0 ;
+      width: 400px;
+      height: 300px;
+    }
+  }
+}
+
+
+.none2{
+  display: none;
 }

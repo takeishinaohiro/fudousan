@@ -1,6 +1,6 @@
 .fudou-heater
   .fudou-heater__left
-    .logo
+    = image_tag '/logo.png', class: "logo"
   .fudou-heater__right
     .top
       Top
@@ -15,9 +15,8 @@
   .slide-main
     = image_tag '/top.jpg',size:"800x450",class:"slide-top"
     %h2
-      「家」「不動産」に関わる全ての人に、
-      %br
-      頼られる存在
+      %li 「家」「不動産」に関わる全ての人に、
+      %li 頼られる存在
     = image_tag '/top2.jpg',size:"800x450",class:"slide-2"
     .image-text2
       %li 「ああしたい！」「こうしたい！」
@@ -66,17 +65,136 @@
     お問い合わせ
   .otoiawase-main__main
     .otoiawase-main__main--left
-      %i.fab.fa-facebook-square
+      =link_to "https://www.facebook.com/Aashitaikoushitaifudousan",class:"" do
+        %i.fab.fa-facebook-square
       %i.fa.fa-comment
         %li.facebook facebookへの連絡はこちら
-        %li.xxxx 　　　
+        %li.xxxx bhhbh
     .otoiawase-main__main--right
-      %i.fab.fa-twitter
+      %i.fas.fa-envelope
       %i.fa.fa-comment
         %li.facebook メールフォームはこちら
-        %li.xxxx 　　　
+        %li.xxxx bhhbh
 
 
 .consul-main
   .consul-main__top
     Consulting
+  .consul-main__top-center
+    「ああしたい！」「こうしたい！」を叶えるコンサルタント
+  .consul-main__main
+    .consul-main__main--top
+      .left.aa
+        .top
+        .bottom
+          1
+          %li.xxx クリック↓↓↓
+      .left.bb
+        .top
+        .bottom
+          2
+      .left.cc
+        .top
+        .bottom
+          3
+    .consul-main__main--bottom
+      .left.dd
+        .top
+        .bottom
+          4
+      .left.ee
+        .top
+        .bottom
+          5
+      .left.ff
+        .top
+        .bottom
+          6
+
+
+  .consul-main__main2.none2.js1
+    .consul-main__main2--into1
+      .text
+        %li.top コンサルティング業務1
+        %li.main あなたの所有する不動産、
+        %li.main あなたの買いたい不動産は生まれ変わるかもしれない...
+        %li.main 『日本の不動産をよくしたい』
+        %li.main あなたが売りたい買いたい物件によって
+        %li.main『日本の不動産はよくなるかもしれない...』
+        %li.next.next1 戻る
+
+
+  .consul-main__main2.none2.js2
+    .consul-main__main2--into1
+      .text
+        %li.top コンサルティング業務2
+        %li.main 市場には従来の不動産の論理や古い物件が多く、
+        %li.main 現在の顧客ニーズに合った物件は少ない...。
+        %li.main 現代の都市生活者は敏感だ。
+        %li.main 必要なのは常に顧客の「ああしたいこうしたい」だと我々は思っている。
+        %li.main 顧客が思う「こんな物件に住みたい」「こんな物件を建てたい！」を形にしたい。
+        %li.next.next2 戻る
+
+  .consul-main__main2.none2.js3
+    .consul-main__main2--into1
+      .text
+        %li.top コンサルティング業務3
+        %li.main 大家さんにとって便利で安心なのはアパートの建設・既存物件のリノベーションであれば・・
+        %li.main 「企画→設計→デザイン→監理→価格設定→集客・案内→契約事務→再募集」
+        %li.main という一連の作業をまとめてやれること。
+        %li.main かっこいい物件には、かっこいい人が必ず反応してくれる。
+        %li.next.next3 戻る
+
+  .consul-main__main2.none2.js4
+    .consul-main__main2--into1
+      .text
+        %li.top コンサルティング業務4
+        %li.main 不動産所有者の「ああしたいこうしたい」だって
+        %li.main 不動産・建築業会のスペシャリストが有効活用を必ずカタチにする。
+        %li.next.next4 戻る
+
+  .consul-main__main2.none2.js5
+    .consul-main__main2--into1
+      .text
+        %li.top コンサルティング業務1
+        %li.main 規模はもちろん様々。
+        %li.main あいたアパートの一部屋だけリノベーション
+        %li.main 時にはマンションの建築・ビル一棟をまとめてプロデュース、建売事業だって行う！
+        %li.next.next5 戻る
+
+  .consul-main__main2.none2.js6
+    .consul-main__main2--into1
+      .text
+        %li.top コンサルティング業務1
+        %li.main お金をかければ魅力的な物件になるわけではない。
+        %li.main センスが一番！過敏な物に人は引いてしまう時代。
+        %li.main 色々な人の「ああしたいこうしたい」を形にし「ニッポンの不動産をよくしたい・・・」
+        %li.next.next6 戻る
+
+.footer
+  .footer__left
+    = image_tag '/logo2.gif', class: "logo2"
+  .footer__center
+    .footer__center--top
+      株式会社　リノーブル
+    .footer__center--center
+      .left
+        %li 住所
+        %li TEL
+        %li FAX
+        %li 代表者
+        %li 免許番号
+        %li 設立
+        %li 取引銀行
+      .right
+        %li 東京都渋谷区鉢山町9-21 細野ビル2F
+        %li 03-5799-7063
+        %li 03-5799-7064
+        %li 横川 雅幸
+        %li 東京都知事(1) 102638号
+        %li 平成24年10月1日
+        %li 三井住友銀行　芝信用金庫
+
+    .footer__left--bottom
+  .footer__right
+    %iframe{allowfullscreen: "",src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.012074752919!2d139.69572851519985!3d35.652074139178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b510ec7e4e9%3A0x6b78f844772c71d0!2z44CSMTUwLTAwMzUg5p2x5Lqs6YO95riL6LC35Yy66Ymi5bGx55S677yZ4oiS77yS77yR!5e0!3m2!1sja!2sjp!4v1578228827944!5m2!1sja!2sjp", size:"350x300"}

@@ -48,5 +48,79 @@ $(function() {
     $('.customer-main__content1').addClass('none')
     $('.customer-main__content3').removeClass('none')
   });
+
+
+
+
+
+
+  $('.aa').click(function(){
+    console.log("apa");
+    $('.consul-main__main').addClass('none2')
+    $('.js1').removeClass('none2')
+  });
+  $('.next1').click(function(){
+    console.log("apa");
+    $('.js1').addClass('none2')
+    $('.consul-main__main').removeClass('none2')
+  });
+
+
+  $('.bb').click(function(){
+    console.log("apa");
+    $('.consul-main__main').addClass('none2')
+    $('.js2').removeClass('none2')
+  });
+  $('.next2').click(function(){
+    console.log("apa");
+    $('.js2').addClass('none2')
+    $('.consul-main__main').removeClass('none2')
+  });
+
+  $('.cc').click(function(){
+    console.log("apa");
+    $('.consul-main__main').addClass('none2')
+    $('.js3').removeClass('none2')
+  });
+  $('.next3').click(function(){
+    console.log("apa");
+    $('.js3').addClass('none2')
+    $('.consul-main__main').removeClass('none2')
+  });
+
+  $('.dd').click(function(){
+    console.log("apa");
+    $('.consul-main__main').addClass('none2')
+    $('.js4').removeClass('none2')
+  });
+  $('.next4').click(function(){
+    console.log("apa");
+    $('.js4').addClass('none2')
+    $('.consul-main__main').removeClass('none2')
+  });
+
+
+  $('.ee').click(function(){
+    console.log("apa");
+    $('.consul-main__main').addClass('none2')
+    $('.js5').removeClass('none2')
+  });
+  $('.next5').click(function(){
+    console.log("apa");
+    $('.js5').addClass('none2')
+    $('.consul-main__main').removeClass('none2')
+  });
+
+
+  $('.ff').click(function(){
+    console.log("apa");
+    $('.consul-main__main').addClass('none2')
+    $('.js6').removeClass('none2')
+  });
+  $('.next6').click(function(){
+    console.log("apa");
+    $('.js6').addClass('none2')
+    $('.consul-main__main').removeClass('none2')
+  });
 })
 
