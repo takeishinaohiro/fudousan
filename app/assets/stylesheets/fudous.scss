@@ -43,6 +43,7 @@
   }
 
 
+
 .fudou-heater{
   background-color: rgba(255, 255, 255, 0.493);
   position: fixed;
@@ -121,10 +122,45 @@
     .slide-top{
       width: 100%;
       height: 30rem;
+      background-image: url("/top2.jpg");
+      background-size: cover;
+      background-color: rgba(136, 134, 134, 0.144);
+
+      &__text{
+        list-style: none;
+        line-height: 5rem;
+        font-style: italic;
+        font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
+        font-size: 2.4rem;
+        margin: 14rem 5rem 0 5rem;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        background-color: rgba(136, 134, 134, 0.253);
+
+      }
+
+
     }
     .slide-2{
       width: 100%;
       height: 30rem;
+      background-image: url("/top.jpg");
+      background-size: cover;
+      background-color: rgba(136, 134, 134, 0.144);
+
+
+      &__text{
+        list-style: none;
+        line-height: 5rem;
+        font-style: italic;
+        font-family: "Didot LT W02 Roman", Didot, "Hoefler Text", Garamond, "Times New Roman", serif;
+        font-size: 2.4rem;
+        margin: 7rem 0 0 3rem;
+        font-weight: 500;
+        color: #fff;
+        background-color: rgba(136, 134, 134, 0.253);
+
+      }
     }
   }
 }
