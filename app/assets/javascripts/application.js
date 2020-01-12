@@ -124,3 +124,68 @@ $(function() {
   });
 })
 
+$(function() {
+  var h = $(window).height();
+ 
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+ 
+ 
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',4000);
+});
+
+
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
+
+
+
+
+
+
+$(function(){
+
+  function scrollToTop() {
+    $('html, body').animate({scrollTop:0});
+   }
+   function scrollToAbout() {
+    $("html,body").animate({scrollTop:$('.customer-main').offset().top});
+   }
+   function scrollToSche() {
+    $("html,body").animate({scrollTop:$('.otoiawase-main').offset().top});
+   }
+
+   function scrollToJo() {
+    $("html,body").animate({scrollTop:$('consul-main').offset().top});
+   }
+
+
+   
+
+   $(".logo").click(function(){
+    console.log("apa");
+    scrollToTop()
+  });
+  $(".top").click(function(){
+    console.log("apa");
+    scrollToTop()
+  });
+
+  $(".customer").click(function(){
+    scrollToAbout()
+  });
+
+  $(".otoiawase").click(function(){
+    scrollToSche()
+  });
+
+  $(".consul").click(function(){
+    scrollToJo()
+  });
+});

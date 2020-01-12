@@ -63,7 +63,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pry-rails'
 gem 'html'
 gem 'jquery-rails'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', '~> 5.4.1'
 gem "haml-rails", ">= 1.0", '<= 2.0.1'
 gem 'carrierwave'
 gem 'mini_magick'
