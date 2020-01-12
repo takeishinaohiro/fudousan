@@ -124,25 +124,25 @@ $(function() {
   });
 })
 
-// $(function() {
-//   var h = $(window).height();
+$(function() {
+  var h = $(window).height();
  
-//   $('#wrap').css('display','none');
-//   $('#loader-bg ,#loader').height(h).css('display','block');
-// });
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
  
  
-// //10秒たったら強制的にロード画面を非表示
-// $(function(){
-//   setTimeout('stopload()',2500);
-// });
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',2500);
+});
 
 
-// function stopload(){
-//   $('#wrap').css('display','block');
-//   $('#loader-bg').delay(900).fadeOut(800);
-//   $('#loader').delay(600).fadeOut(300);
-// }
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}
 
 
 
