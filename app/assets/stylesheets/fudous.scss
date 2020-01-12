@@ -637,12 +637,13 @@
       .next{
         margin: -0.5rem 0 0 0;
         cursor: pointer;
-        color: blue;
+        color: #333;
         cursor: pointer;
         font-size: 1.3rem;
         width: 60px;
         margin: 0 auto;
         line-height: 4.5rem;
+        font-weight: bold;
 
         
         &:hover{
@@ -783,8 +784,8 @@
           font-size: 0.7rem;
           margin: 3rem 0rem 0 1rem;
           font-weight: 400;
-          color: rgb(255, 255, 255);
-          background-color: rgba(136, 134, 134, 0.253);
+          color: #333;
+          background-color: rgba(255, 255, 255, 0.493);
   
         }
   
@@ -806,8 +807,8 @@
           font-size: 0.7rem;
           margin: 3rem 0rem 0 1rem;
           font-weight: 400;
-          color: rgb(255, 255, 255);
-          background-color: rgba(136, 134, 134, 0.253);
+          color: #333;
+          background-color: rgba(255, 255, 255, 0.493);
   
         }
       }
@@ -1297,7 +1298,7 @@
           height: 1rem;
 
         .next{
-          color: blue;
+          color:#333;
           margin: -0.5rem 3rem 0 0;
           cursor: pointer;
           font-size: 1.2rem;
@@ -1865,7 +1866,7 @@
           height: 1rem;
 
         .next{
-          color: blue;
+          color: #333;
           margin: -0.5rem 3rem 0 0;
           cursor: pointer;
           font-size: 1.2rem;
