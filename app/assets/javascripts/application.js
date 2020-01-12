@@ -172,7 +172,7 @@ $(function(){
     console.log("apa");
     scrollToTop()
   });
-  $(".top").click(function(){
+  $(".home-top").click(function(){
     console.log("apa");
     scrollToTop()
   });
